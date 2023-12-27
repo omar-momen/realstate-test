@@ -1,0 +1,25 @@
+form.auth,
+form.property {
+  header.header {
+    margin-bottom: 50px;
+  }
+
+  main.inputs {
+    margin-bottom: 20px;
+  }
+
+  footer.footer {
+    font-size: 15px;
+
+    p {
+      text-align: center;
+      margin-top: 12px;
+    }
+  }
+}
+
+form.property {
+  footer.footer {
+    margin-top: 60px;
+  }
+}

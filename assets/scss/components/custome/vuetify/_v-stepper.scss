@@ -1,0 +1,12 @@
+.v-sheet.v-stepper {
+  box-shadow: unset !important;
+  background-color: transparent;
+
+  .v-stepper-header {
+    box-shadow: unset;
+
+    .v-avatar {
+      color: #fff !important;
+    }
+  }
+}
