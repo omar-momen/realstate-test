@@ -2,8 +2,8 @@ import { useAuthStore } from "@/stores/auth";
 import { useLangStore } from "@/stores/lang";
 
 export const useMyFetch = (url, options) => {
-  // const BASE_URL = useRuntimeConfig().public.apiBase;
-  const BASE_URL = "http://8.213.24.120/api/";
+  // const BASE_URL = "http://8.213.24.120/api/";
+  const BASE_URL = useRuntimeConfig().public.apiBase;
   const AUTH_STORE = useAuthStore();
   const LANG_STORE = useLangStore();
 
